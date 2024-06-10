@@ -1,0 +1,32 @@
+/*  rosa forte 	#FF1493
+    rosa claro 	#FF69B4 
+    
+    font-weight: <weight>;
+    font-style: normal;
+    */
+
+body{
+    background: linear-gradient(to right, #FF1493, #FF69B4, #FF69B4);
+    text-align: center;
+    
+    font-family: "Comfortaa", sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    font-style: bold;
+}
+
+label{
+    font-weight: 600;
+    font-style: normal;
+}
+
+input, button {
+    background-color: #FF69B4;
+    background: #FF69B4;
+    border-style: solid;
+    border-color: #FF1493;
+    border-radius: 30px;
+    border-width: 1px;
+}
